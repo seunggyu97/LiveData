@@ -12,7 +12,7 @@ class MainActivityViewModel : ViewModel() {
     init {
         count.value = 0
     }
-
+//
     fun updateCount(){
         count.value = (count.value)?.plus(1)
     }
